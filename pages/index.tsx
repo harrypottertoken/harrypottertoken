@@ -80,7 +80,7 @@ export default function Home({
                       alt="logo"
                     />
                   </a>
-                  <a href="mailto:pedro.ceo@harrypotter.finance">
+                  <a href="mailto:marketing@harrypotter.finance">
                     <img
                       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABJCAYAAACesWDiAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMZSURBVHgB7ZvrcdpAFIWvaCCUAK4gTgW4g2RSQPDkd8YwKSA0kIkriO0KSCoACsjEDTirDkIKiK/vYXd5LEjioQeg+80ckAavRjres9JKV0SKoiiKoiiKoii5Ey2vMHNTvj6IOqLXVB+mTveiSRRFsf9hbpCYA2NuRU2qN7FoICY9YGVmkJhzQ9YcZUEXJkViTktWfpP2nBBErt2QjwGpOZuAJz30IPSeOg3IuxDDICYlkQYpqcCgR1KSeIRBP0lJ4jZyV88YqFukLBOLrhpyMYTz/Tuy533FMvMEU47ZIC0LGIcuybpWd2LRlfNkcRZzEzSY9ED1Bcd+6c0BK6d5xE3UlcU+1QtEqo9jd0POnCiphZujjej8B++Y7Hiz8XKnIUYMnRkr1CRya5Hy4OwuGmEBGFHifEx+6/F58VfUSzneDltPmIKGX1IatXyjE8dweme4Wf5j2rCBjZFb6nb3fLpg35spxzYKG1DChgyfV+S2jlQIZWz4HCJneIdIhWQZBE45cjtHKmQbg4Dh04rc3pEK2dYgzylEzvABkQrZ1SBwzJE7OFIh+xgEDB9X5HKLVMi+BnmOIXKGc4xUyKEGAUSuzRsejrDt1neiZy6G3CMVkodBwIjeuO1RQuT+c34UFqmQvAzyDES4Q0AJkXviwzFcYKRC8jYIIHIXnBy577x/byo8UiFFGAQM5xu50iIVUpRBnjwiZ7jESIUUbRA4JHKlRyqkDIOA4fTIdXk1IpVFKqQsgzyJkVuKXYtS4IIjFVJF+csP0WfRH6zIDfOtGrGN2pBsgWlpVFUfFIvek60seZ7tSIpRsosd+bqjCh5BVVUf1BL9En0VXSTtB9uB+BtV+HzuWCrMELux6J9bfyV6S7Y0sNL6SS3By0BL8DJQgzJQgzJQgzKAQTEpSUy1DDidCQyqc8ldFkP/OtQT2StaZUEs05+2H6Q/kpsTKXOu8eHLgMdkZ9hqkqXvPFl7ZxXzH0wgW1TPS4BYdO3NAWv3GNx9Fxj1icp9j6zKf8hYNCG8m7FtGTBwZp3724jT0BRFURRFUWrBC6LcVldBE7KcAAAAAElFTkSuQmCC"
                       alt="logo"
@@ -166,7 +166,7 @@ export default function Home({
                 <p>
                   Welcome to the world of a unique digital currency, born from
                   joy and excitement, reflecting the intelligent and inventive
-                  essence of our favorite cape-wearing hero: 
+                  essence of our favorite cape-wearing hero:
                   <a
                     href="https://pancakeswap.finance/swap?outputCurrency=0x3fafcf73c4a63b00bfa5f42fcc5565bc65e81b90"
                     target="_blank">
@@ -373,6 +373,106 @@ export default function Home({
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+          <div>
+            <h2>Partners</h2>
+            <div className="Partnes">
+              <div
+                onClick={() => {
+                  window.location.href =
+                    'https://www.cointiger.com/en-us/#/index';
+                }}
+                style={{
+                  backgroundImage: 'url(images/cointiger.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+
+              <div
+                onClick={() => {
+                  window.location.href = 'https://coinmarketcap.com/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/cmc.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://www.coingecko.com/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/coingecko.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://dappradar.com/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/dappradar.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://moontok.io/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/moontok.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://cntoken.io/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/cntoken.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              <div
+                onClick={() => {
+                  window.location.href = 'https://ave.ai/';
+                }}
+                style={{
+                  backgroundImage: 'url(images/aveai.png)',
+                  backgroundSize: '100px 100px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div>
+              {/* <div
+                style={{
+                  backgroundImage: 'url(images/founder.png)',
+                  backgroundSize: '200px 200px',
+                  backgroundRepeat: 'no-repeat',
+                  backgroundPosition: 'center center',
+                  cursor: 'pointer',
+                }}
+                className="Partner"></div> */}
             </div>
           </div>
         </div>

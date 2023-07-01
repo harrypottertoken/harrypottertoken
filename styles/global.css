@@ -199,13 +199,14 @@ Header Left
 }
 
 .Luigi-Logo-Symbol {
-  width: 70px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 @media (max-width: 967px) {
-  .Luigi-Logo-Symbol {
-    width: 50px;
-  }
+
 }
 
 .Luigi-Logo-Symbol > img {
@@ -1348,6 +1349,37 @@ SECTION - ROADMAP
 
 
 .Section-Roadmap {}
+
+/* Partnes */
+
+.Partnes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 967px) {
+  .Partnes {
+    align-items: center;
+  }
+}
+
+.Partner {
+  background-color: #fff;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  box-sizing: border-box;
+}
 
 /* Panels */
 
