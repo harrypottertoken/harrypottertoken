@@ -125,7 +125,7 @@ export default function Layout({
                   color: 'white',
                 }}
                 href="https://instagram.com/pedrothiagozanfrilli?igshid=OGQ5ZDc2ODk2ZA==">
-                Founder by: Wattersoncalls!
+                Founder by: Pedro Thiago zanfrilli!
               </a>
             </h3>
             <div className="Luigi-Socials">
