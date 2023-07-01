@@ -80,7 +80,7 @@ export default function Home({
                       alt="logo"
                     />
                   </a>
-                  <a href="mailto:marketing@harrypotter.finance">
+                  <a href="mailto:pedro.ceo@harrypotter.finance">
                     <img
                       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABJCAYAAACesWDiAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMZSURBVHgB7ZvrcdpAFIWvaCCUAK4gTgW4g2RSQPDkd8YwKSA0kIkriO0KSCoACsjEDTirDkIKiK/vYXd5LEjioQeg+80ckAavRjres9JKV0SKoiiKoiiKoii5Ey2vMHNTvj6IOqLXVB+mTveiSRRFsf9hbpCYA2NuRU2qN7FoICY9YGVmkJhzQ9YcZUEXJkViTktWfpP2nBBErt2QjwGpOZuAJz30IPSeOg3IuxDDICYlkQYpqcCgR1KSeIRBP0lJ4jZyV88YqFukLBOLrhpyMYTz/Tuy533FMvMEU47ZIC0LGIcuybpWd2LRlfNkcRZzEzSY9ED1Bcd+6c0BK6d5xE3UlcU+1QtEqo9jd0POnCiphZujjej8B++Y7Hiz8XKnIUYMnRkr1CRya5Hy4OwuGmEBGFHifEx+6/F58VfUSzneDltPmIKGX1IatXyjE8dweme4Wf5j2rCBjZFb6nb3fLpg35spxzYKG1DChgyfV+S2jlQIZWz4HCJneIdIhWQZBE45cjtHKmQbg4Dh04rc3pEK2dYgzylEzvABkQrZ1SBwzJE7OFIh+xgEDB9X5HKLVMi+BnmOIXKGc4xUyKEGAUSuzRsejrDt1neiZy6G3CMVkodBwIjeuO1RQuT+c34UFqmQvAzyDES4Q0AJkXviwzFcYKRC8jYIIHIXnBy577x/byo8UiFFGAQM5xu50iIVUpRBnjwiZ7jESIUUbRA4JHKlRyqkDIOA4fTIdXk1IpVFKqQsgzyJkVuKXYtS4IIjFVJF+csP0WfRH6zIDfOtGrGN2pBsgWlpVFUfFIvek60seZ7tSIpRsosd+bqjCh5BVVUf1BL9En0VXSTtB9uB+BtV+HzuWCrMELux6J9bfyV6S7Y0sNL6SS3By0BL8DJQgzJQgzJQgzKAQTEpSUy1DDidCQyqc8ldFkP/OtQT2StaZUEs05+2H6Q/kpsTKXOu8eHLgMdkZ9hqkqXvPFl7ZxXzH0wgW1TPS4BYdO3NAWv3GNx9Fxj1icp9j6zKf8hYNCG8m7FtGTBwZp3724jT0BRFURRFUWrBC6LcVldBE7KcAAAAAElFTkSuQmCC"
                       alt="logo"
